@@ -6,7 +6,7 @@ if int(n)<0 or int(n)/10==0 or (int(n)/10==0):
 if n == n[::-1] :
     print("是回文")
 else :
-    print("不是回文數")
+    print("不是回文")
 
 # #leetcod
 
