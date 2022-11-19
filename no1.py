@@ -1,7 +1,6 @@
-nums = [2,7,11,15]
-new=[]
-if nums[i]+num[i+1]<9:
-    new[0]=0
-    new[1]=times=times+1
-
-
+# leetcode:
+# (1) --->時間過久
+#         for i in range(len(nums)):
+#             for j in range(i+1, len(nums)):
+#                 if nums[i] + nums[j] == target:
+#                     return (i, j)   
