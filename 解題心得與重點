@@ -1,4 +1,13 @@
-No0.9 Palindrome Number (回文訓練)
+No.1 Two Sum 
+  
+  利用雜湊表（Hash Table）快速找出
+  Hash Table資料結構
+  d = {}
+  num2 = target - num1
+  if num2 in d:
+    return [i, j]
+
+No.9 Palindrome Number (回文訓練)
 
   重點 : 不可有小數/負號/個位數/0
   A.[::-1] 顺序相反操作 [2::-1] 從索引2 開始往前讀
