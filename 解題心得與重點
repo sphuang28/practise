@@ -1,11 +1,25 @@
-No.1 Two Sum 
+No.1 Two Sum (演算法基本題)
   
+  雜湊表（Hash Table）:可解釋為像電話簿用索引找出對應的值
+  a.
   利用雜湊表（Hash Table）快速找出
   Hash Table資料結構
   d = {}
   num2 = target - num1
   if num2 in d:
     return [i, j]
+
+  b.
+  字典可用.__contains__ / .get(target-nums[i]用法
+  範例:
+    numMap = {}
+     for i in range(len(nums)):
+         if numMap.__contains__(target-nums[i]):
+             return [numMap.get(target-nums[i]), i]
+         else:
+             numMap[nums[i]] = i
+  
+
 
 No.9 Palindrome Number (回文訓練)
 
